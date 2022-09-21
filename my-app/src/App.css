@@ -41,7 +41,7 @@ body {
 
 .nav-header-ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   line-height: 67px;
   height: 100%;
 }
@@ -52,23 +52,34 @@ body {
   font-size: 16px;
 }
 
-.nav-header-ul-li:hover {
-  
-  opacity: 0.5;
-}
 
 .nav-header-ul-li-link {
   color: #fff;
+  font-weight: 600;
+  line-height: 72px;
+  height: 72px;
+  padding: 15px;
 }
 
 .nav-header-ul-li-link:hover{
   color: black;
 }
 
+.nav-header-ul-li-link:active{
+  color: white;
+}
+
+.nav-header-ul-li-link:focus {
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgb(176, 175, 175) 0px 7px 29px 0px;
+}
+
 .logo {
   height: 100%;
   min-width: 36px;
-  line-height: 72px;
+  
 }
 
 .logo-img {

@@ -1,6 +1,7 @@
 import { PageContainer, ProList } from "@ant-design/pro-components";
 import { Button, Modal } from "antd";
 import PostsDetail from "./components/PostsDetails";
+import { PlusOutlined } from "@ant-design/icons";
 import React, { useState } from "react";
 import "./components/index.css";
 import { dataSource1 } from "../../services/api/api";
@@ -17,6 +18,7 @@ const Home1 = () => {
         toolBarRender={() => {
           return [
             <Button key="3" type="primary">
+              <PlusOutlined />
               Tạo mới
             </Button>,
           ];
