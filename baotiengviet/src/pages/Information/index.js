@@ -17,14 +17,12 @@ const Information = () => {
       title: "Mã số",
       dataIndex: "index",
       valueType: "index",
-      width: 80,
     },
     {
       title: "Avatar",
       dataIndex: "img",
       key: "image",
       valueType: "image",
-      width: 80,
     },
     {
       title: "Name",
@@ -35,19 +33,9 @@ const Information = () => {
       dataIndex: "price",
     },
     {
-      title: "Năm sinh",
-      dataIndex: "age",
-      width: 100,
-    },
-    {
-      title: "Quốc tịch",
-      dataIndex: "nationality",
-    },
-    {
       title: "Hành động",
       dataIndex: "option",
-      fixed: "right",
-      width: 80,
+      width: 120,
       valueType: "option",
       render: (_, entity) => [
         <Button
@@ -63,7 +51,7 @@ const Information = () => {
   ];
 
   return (
-    <PageContainer title="Thông tin các cầu thủ">
+    <PageContainer title="Giá trị các cầu thủ">
       <ProTable
         columns={columns}
         className="pagecontainer"
@@ -71,11 +59,6 @@ const Information = () => {
         rowKey="key"
         headerTitle="Bảng giá trị"
         search={false}
-        scroll={{ x: "max-content", y: "calc(100vh - 315px)" }}
-        pagination={{
-          defaultPageSize: 10,
-          showSizeChanger: true,
-        }}
       />
 
       <Modal

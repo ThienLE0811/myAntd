@@ -62,6 +62,7 @@ const Dashboard = () => {
         onItem={(record) => {
           return {
             onClick: () => {
+              console.log(record);
               setCurrentRow(record);
               setShowPosts(true);
             },

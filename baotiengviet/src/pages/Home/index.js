@@ -2,7 +2,6 @@ import { PageContainer, ProList } from "@ant-design/pro-components";
 import { Button, Modal, Tag } from "antd";
 import PostsDetail from "./components/PostsDetails";
 import { PlusOutlined } from "@ant-design/icons";
-import ModalFormPosts from "./components/ModalFormPosts";
 import React, { useState } from "react";
 import "./components/index.css";
 import { dataSource1 } from "../../services/api/api";
@@ -12,7 +11,6 @@ const dataSource = dataSource1;
 const Home1 = () => {
   const [currentRow, setCurrentRow] = useState();
   const [showPosts, setShowPosts] = useState(false);
-  const [showModalForm, setShowModalForm] = useState(false);
 
   return (
     <PageContainer title="Một số bài viết hay về các cầu thủ">
@@ -20,13 +18,7 @@ const Home1 = () => {
         className="pagecontainer"
         toolBarRender={() => {
           return [
-            <Button
-              key="3"
-              type="primary"
-              onClick={() => {
-                setShowModalForm(true);
-              }}
-            >
+            <Button key="3" type="primary">
               <PlusOutlined />
               Tạo mới
             </Button>,
@@ -35,6 +27,7 @@ const Home1 = () => {
         onItem={(record) => {
           return {
             onClick: () => {
+              console.log(record);
               setCurrentRow(record);
               setShowPosts(true);
             },
@@ -96,15 +89,6 @@ const Home1 = () => {
           content={currentRow?.content}
         />
       </Modal>
-
-      <ModalFormPosts
-        visible={showModalForm}
-        initiateData={currentRow}
-        onVisibleChange={(visible) => {
-          if (!visible && !showPosts) setCurrentRow(undefined);
-          setShowModalForm(visible);
-        }}
-      ></ModalFormPosts>
     </PageContainer>
   );
 };

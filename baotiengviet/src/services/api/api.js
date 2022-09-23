@@ -78,12 +78,6 @@ const dataSource1 = [
     Trên tuyển phải gánh Benzema người không làm gì sắp sửa được QBV 2022, về câu lạc bộ phải gánh người mua QBV đi bộ 
     vuốt râu, thế nên đấy là lí do anh được mệnh danh là cậu bé vàng không chỉ vì anh được cúp vàng khi mới 19 tuổi.`,
   },
-  {
-    title: "Ronaldo De Lima",
-    author: "BLV Ngọc Anh",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVMqkrrhWGccLAFXCk9qZqyskLuyINRd3EAg&usqp=CAU",
-    content: `Người ngoài hành tinh của bóng đá thế giới`,
-  },
 ];
 
 const dataSource2 = [
@@ -91,78 +85,51 @@ const dataSource2 = [
     title: "Paul Pogba",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5SOgPMG_PLrF6CBqVh00QTSkEeNGOzDe-NA&usqp=CAU",
     price: "60 triệu €",
-    age: 1993,
-    nationality: "Pháp",
   },
   {
     title: "Yaya Toure",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRcwcZp7c4K8gjBG-v28k-KscK_jUN1gwMHA&usqp=CAU",
     price: "40 triệu €",
-    age: 1971,
-    nationality: "Bờ Biển Ngà",
   },
   {
     title: "Cristiano Ronaldo",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIwoxbHToc9VYf1d_wlOSIKZM1ZUvGzwMPQ&usqp=CAU",
     price: "90 triệu €",
-    age: 1985,
-    nationality: "Bồ Đào Nha",
   },
   {
     title: "Leo Messi",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjZ1R3pZV-8dF3pfPwGwAGkTuc69dcDWy4BQ&usqp=CAU",
     price: "80 triệu €",
-    age: 1987,
-    nationality: "Argentina",
   },
   {
     title: "Neymar Jr",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkE6-SMyR29TkLCbuvQOJ-0JVqpRniB1ILA&usqp=CAU",
     price: "70 triệu €",
-    age: 1990,
-    nationality: "Brazil",
   },
   {
     title: "Bruno Fernandes",
     img: "https://image-service.onefootball.com/transform?w=840&h=472&dpr=2&image=https%3A%2F%2Fimages.tribalfootball.com%2Fdefault%2F0001%2F12%2Fa6262d0f89d1576015be8e1f50d0b1cbfd7371b0.jpeg",
     price: "60 triệu €",
-    age: 1994,
-    nationality: "Bồ Đào Nha",
   },
   {
     title: "Kevin De Bruyne",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNf_Ykk3UZ6B0E-q5OgWLEInho_PzzexewaQ&usqp=CAU",
     price: "60 triệu €",
-    age: 1992,
-    nationality: "Bỉ",
   },
   {
     title: "Robin Van Persie",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0dtBKgNqZWsAan07k_6BLGJ2R1z66lPdowQ&usqp=CAU",
     price: "50 triệu €",
-    age: 1973,
-    nationality: "Hà Lan",
   },
   {
     title: "Michael Carrick",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSTZR7loewcMm6Ked_WmApo15D15bZjyt_hw&usqp=CAU",
     price: "50 triệu €",
-    age: 1973,
-    nationality: "Anh",
   },
   {
     title: "Kylian Mbappé",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3n32vZ2KS219sZd5XeHT8gn-isp79GoVs7g&usqp=CAU",
     price: "90 triệu €",
-    age: 1999,
-    nationality: "Pháp",
-  },
-  {
-    title: "Ronaldo De Lima",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVMqkrrhWGccLAFXCk9qZqyskLuyINRd3EAg&usqp=CAU",
-    price: "50 triệu €",
-    age: 1975,
-    nationality: "Brazil",
   },
 ];
 
@@ -227,10 +194,6 @@ const team = [
     content: `"Cậu bé vàng phải gánh người mua bóng vàng" đấy chính là Kylian Mbappé - cầu thủ trẻ xuất sắc nhất thế giới.
     Trên tuyển phải gánh Benzema người không làm gì sắp sửa được QBV 2022, về câu lạc bộ phải gánh người mua QBV đi bộ 
     vuốt râu, thế nên đấy là lí do anh được mệnh danh là cậu bé vàng không chỉ vì anh được cúp vàng khi mới 19 tuổi.`,
-  },
-  {
-    title: "Ronaldo De Lima",
-    content: `Người ngoài hành tinh của bóng đá thế giới`,
   },
 ];
 
