@@ -1,4 +1,5 @@
 import { PageContainer } from "@ant-design/pro-components";
+import { Tag } from "antd";
 
 const PostsDetail = (props) => {
   return (
@@ -6,14 +7,12 @@ const PostsDetail = (props) => {
       <img
         src={props.img}
         alt=""
-        style={{ textAlign: "center", wdth: "100%" }}
+        style={{ textAlign: "center" }}
         className="img-posts"
       />
-      <h3 style={{ padding: "10px 0" }}>{props.title}</h3>
-
-      <div
-        dangerouslySetInnerHTML={{ __html: `Giá trị: ${props?.price}` || "" }}
-      ></div>
+      <h3 style={{ paddingTop: "5px" }}>{props.title}</h3>
+      <Tag color="blue">{props?.author}</Tag>
+      <div dangerouslySetInnerHTML={{ __html: props?.content || "" }}></div>
     </PageContainer>
   );
 };
